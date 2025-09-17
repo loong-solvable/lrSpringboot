@@ -1,0 +1,73 @@
+myapp:
+  username: jacksonyyy
+  password: 123456yml
+  age: 30
+  gender: true
+
+xyz:
+  name: Lucy
+  addr:
+    city: GuangZhou
+    street: WuShan
+
+app2:
+  abc:
+    names:
+      - jack
+      - smith
+      - bitch
+#    names[0]: jack
+#    names[1]: lucy
+#    names[2]: tom
+
+#    addrArray[0]:
+#      city: BeiJing
+#      street: ChaoYang
+#
+#    addrArray[1]:
+#        city: TianJin
+#        street: NanKai
+
+    addrArray:
+      - city: BJ
+        street: chaoyang
+      - city: Tianjin
+        street: nankai
+    addrList:
+      - city: beijing
+        street: chaoyanglist
+      - city: tianJin
+        street: nankai_list
+
+
+#    addrList[0]:
+#      city: BeiJing_list
+#      street: ChaoYang-lsit
+#
+#    addrList[1]:
+#      city: TianJin-list
+#      street: NanKai-lsit
+#
+#    addrs:
+#      addr1:
+#        city: BJ_Map
+#        street: PPP-Map
+#
+#      addr2:
+#        city: HN_map
+#        street: tianjin_map
+
+    addrs:
+      addr1: #key
+        city: Beijing_map  #value
+        street: chaoyang_map
+      addr2:
+        city: Tianjin2
+        street: chjai
+
+
+other:
+  abc:
+    city: beijing
+    street: tongzhou
+
