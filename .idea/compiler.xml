@@ -12,10 +12,12 @@
         <module name="springboot3-03-use-idea-plugin" />
         <module name="springboot3-05-junit" />
         <module name="springboot3-06-properties-location" />
+        <module name="springboot3-12-mybatis" />
         <module name="springboot3-09-config" />
         <module name="springboot3-07-value-annotation" />
         <module name="springboot3-10-config-bind-to-bean" />
         <module name="spingboot3-01-first" />
+        <module name="springboot3-11-aop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
@@ -31,6 +33,8 @@
       <module name="springboot3-08-yml" options="-parameters" />
       <module name="springboot3-09-config" options="-parameters" />
       <module name="springboot3-10-config-bind-to-bean" options="-parameters" />
+      <module name="springboot3-11-aop" options="-parameters" />
+      <module name="springboot3-12-mybatis" options="-parameters" />
     </option>
   </component>
 </project>
